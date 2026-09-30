@@ -19,3 +19,30 @@ a { color: var(--z-platinum); text-decoration: none; }
 #tech:hover { border-color: var(--z-tech); box-shadow: 0 0 30px #0066FF33; }
 #invest:hover { border-color: var(--z-invest); box-shadow: 0 0 30px #00C98D33; }
 #const:hover { border-color: var(--z-const); box-shadow: 0 0 30px #FF5C0033; }
+/* AJUSTE PARA CELULAR */
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+  ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 0;
+  }
+  .hero {
+    height: auto;
+    padding: 60px 20px;
+  }
+  .hero h1 {
+    font-size: 32px !important;
+  }
+  .ecossistema {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+  .card {
+    padding: 25px;
+  }
+}
