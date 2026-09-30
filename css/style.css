@@ -12,7 +12,7 @@ header nav { display: flex; justify-content: space-between; padding: 20px 5%; bo
 ul { display: flex; list-style: none; gap: 20px; }
 a { color: var(--z-platinum); text-decoration: none; }
 .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
-.hero span { background: linear-gradient(90deg, var(--z-tech), var(--z-invest), var(--z-const)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero span { background: none; color: #FFFFFF; -webkit-text-fill-color: #FFFFFF; }
 .btn { border: 1px solid var(--z-white); padding: 12px 24px; margin-top: 20px; }
 .ecossistema { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 5%; }
 .card { border: 1px solid #222; padding: 40px; transition: 0.3s; }
