@@ -1,0 +1,21 @@
+:root {
+  --z-black: #0B0F19;
+  --z-white: #F5F5F7;
+  --z-platinum: #A8A9AD;
+  --z-tech: #0066FF;
+  --z-invest: #00C98D;
+  --z-const: #FF5C00;
+}
+body { background: var(--z-black); color: var(--z-white); font-family: Inter, sans-serif; margin: 0; }
+header nav { display: flex; justify-content: space-between; padding: 20px 5%; border-bottom: 1px solid #1a1a1a; }
+.logo { font-weight: 900; letter-spacing: 5px; }
+ul { display: flex; list-style: none; gap: 20px; }
+a { color: var(--z-platinum); text-decoration: none; }
+.hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+.hero span { background: linear-gradient(90deg, var(--z-tech), var(--z-invest), var(--z-const)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.btn { border: 1px solid var(--z-white); padding: 12px 24px; margin-top: 20px; }
+.ecossistema { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 5%; }
+.card { border: 1px solid #222; padding: 40px; transition: 0.3s; }
+#tech:hover { border-color: var(--z-tech); box-shadow: 0 0 30px #0066FF33; }
+#invest:hover { border-color: var(--z-invest); box-shadow: 0 0 30px #00C98D33; }
+#const:hover { border-color: var(--z-const); box-shadow: 0 0 30px #FF5C0033; }
